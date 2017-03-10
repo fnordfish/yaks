@@ -5,8 +5,8 @@ gemspec path: 'yaks-html'
 gemspec path: 'yaks-transit'
 gemspec path: 'yaks-sinatra'
 
-if RUBY_VERSION < '2'
-  gem 'mime-types', [ '>= 2.6.2', '< 3' ]
+group :development do
+  gem "appraisal"
 end
 
 # gem 'mutant', github: 'mbj/mutant'
