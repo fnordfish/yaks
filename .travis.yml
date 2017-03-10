@@ -38,3 +38,7 @@ matrix:
       env: TASK=ataru
     - rvm: 2.2
       env: TASK=mutant
+
+gemfiles:
+  - gemfiles/sinatra_1_4_x.gemfile
+  - gemfiles/sinatra_2_0_0_rc1.gemfile
